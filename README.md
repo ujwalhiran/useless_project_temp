@@ -2,59 +2,58 @@
 
 
 
-# [Project Name] 🎯
+# RipenAI 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Rahel
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Ujwal Hiran - SNGCE
+- Member 2: Riyan VT - SNGCE
+
 
 ### Project Description
-[2-3 lines about what your project does]
+If upload a picture of a banana to our system, it will tell about how ripen is
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+To check ripeness of a banana by a ai system
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+instead of looking straight to the banana and realize whether it had ripen or not, we made a system tell about its ripeness by analysing the photo of the banana
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages used- Python 3
+- Frameworks used- PyTorch, streamlit
+- Libraries used - Torchvision, opencv, NumPy, Plotly, Pillow
+- Tools used -Jupyter notebook, Anaconda, Github, MobileNetV2
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone https://github.com/ujwalhiran/https://github.com/ujwalhiran/useless_project_temp.git
+cd https://github.com/ujwalhiran/useless_project_temp
 
 # Run
-[commands]
+streamlit run app.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1]<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fa62afaf-19e6-49bb-8ae8-416d8ef6c474" />
+
+
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2]<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/85d5dad2-cbb5-45d6-acbe-ac90fb578827" />
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9e96eb0b-f0f5-49f2-815d-1ca40d539820" />
 *Add caption explaining what this shows*
 
 # Diagrams
