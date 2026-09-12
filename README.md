@@ -1,71 +1,103 @@
-# 🍌 RipenAI - Deep Learning & Computer Vision Banana Ripeness Classifier
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-A hybrid Deep Learning (MobileNetV2 CNN) and Computer Vision system that trains directly on banana image datasets to predict ripeness, classify commercial ripening stages, and estimate shelf-life.
+
+
+# [Project Name] 🎯
+
+
+## Basic Details
+### Team Name: [Name]
+
+
+### Team Members
+- Team Lead: [Name] - [College]
+- Member 2: [Name] - [College]
+- Member 3: [Name] - [College]
+
+### Project Description
+[2-3 lines about what your project does]
+
+### The Problem (that doesn't exist)
+[What ridiculous problem are you solving?]
+
+### The Solution (that nobody asked for)
+[How are you solving it? Keep it fun!]
+
+## Technical Details
+### Technologies/Components Used
+For Software:
+- [Languages used]
+- [Frameworks used]
+- [Libraries used]
+- [Tools used]
+
+For Hardware:
+- [List main components]
+- [List specifications]
+- [List tools required]
+
+### Implementation
+For Software:
+# Installation
+[commands]
+
+# Run
+[commands]
+
+### Project Documentation
+For Software:
+
+# Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
+*Add caption explaining your workflow*
+
+For Hardware:
+
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Name 1]: [Specific contributions]
+- [Name 2]: [Specific contributions]
+- [Name 3]: [Specific contributions]
 
 ---
+Made with ❤️ at TinkerHub Useless Projects 
 
-## 🚀 Quick Start (Hackathon Setup)
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
 
-### 1. Install Dependencies
-In `e:\hackathon1`:
-```bash
-pip install -r requirements.txt
-```
 
-### 2. Download Image Dataset & Train CNN
-```bash
-# Step A: Download curated banana image dataset
-python dataset_setup.py
 
-# Step B: Train the MobileNetV2 Neural Network on image data
-python train_cnn.py
-```
-
-### 3. Launch the Web App
-```bash
-streamlit run app.py
-```
-Or open in Jupyter:
-```bash
-jupyter notebook banana_ripeness_analysis.ipynb
-```
-
----
-
-## 🧠 Deep Learning Architecture
-
-### 1. Image Dataset Pipeline (`dataset/`)
-Image data is organized into standard PyTorch ImageFolder format:
-```
-dataset/
-├── train/
-│   ├── unripe/       # Photos of green, starchy bananas
-│   ├── ripe/         # Photos of yellow, sweet bananas
-│   └── overripe/     # Photos of spotted, softening bananas
-└── val/
-    ├── unripe/
-    ├── ripe/
-    └── overripe/
-```
-You can drop any extra real photos into these folders anytime!
-
-### 2. Transfer Learning with MobileNetV2
-- **Pre-trained Backbone**: MobileNetV2 trained on ImageNet (extracts edges, surface textures, freckling patterns).
-- **Custom Classification Head**: Dropout(0.3) ➔ Linear(128) ➔ ReLU ➔ Linear(3 classes).
-- **Softmax Probabilities**: Returns confidence score for each class (`Unripe`, `Ripe`, `Overripe`).
-
----
-
-## 📁 Project Structure
-
-```
-e:\hackathon1\
-├── app.py                         # Streamlit Dashboard (Hybrid CNN + CV)
-├── dataset_setup.py               # Downloads and prepares image data folders
-├── train_cnn.py                   # Trains MobileNetV2 on image dataset
-├── cnn_detector.py                # Deep learning inference on raw image tensors
-├── ripeness_detector.py           # Spectral color engine & shelf-life calculator
-├── generate_samples.py            # Generates test images
-├── banana_ripeness_analysis.ipynb # Jupyter notebook with full DL pipeline
-└── requirements.txt               # Dependencies (torch, torchvision, streamlit, etc.)
-```
